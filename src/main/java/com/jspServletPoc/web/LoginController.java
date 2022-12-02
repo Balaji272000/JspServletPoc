@@ -10,8 +10,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.jspServletPoc.dao.UserDao;
-import com.jspServletPoc.util.HibernateUtil;
-
 
 
 @WebServlet("/login")

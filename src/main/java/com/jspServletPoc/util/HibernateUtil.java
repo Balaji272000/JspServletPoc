@@ -16,9 +16,6 @@ public class HibernateUtil {
         String url= "jdbc:mysql://40.80.145.208:3306/painscriptdb?autoReconnect=true&cachePrepStmts=true&useServerPrepStmts=true&rewriteBatchedStatements=true&noAccessToProcedureBodies=true"; // table details
         String username = "admin"; // MySQL credentials
         String password = "pain";
-        
-        
-        
        
         Class.forName("com.mysql.cj.jdbc.Driver"); // Driver name
         Connection con = DriverManager.getConnection(url, username, password);
